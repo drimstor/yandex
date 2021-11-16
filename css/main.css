@@ -520,6 +520,7 @@ header {
 
 .slider {
 	padding: 0px 0px;
+	z-index: 99999;
 }
 
 .slider .slick-arrow {
@@ -828,7 +829,6 @@ footer {
 
 
 @media screen and (max-width: 769px) {
-		
 	.comp {
 		display: none;
 	}
@@ -849,7 +849,7 @@ footer {
 		display: none;
 	}
 	.header__btn{
-		height: 31px;
+		height: 35px;
     	font-size: 12px;
     	line-height: 31px;
 		font-weight: bold;
