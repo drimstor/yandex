@@ -1109,6 +1109,13 @@ footer {
 	}
 }
 
+@media screen and (max-width: 500px) {
+	.sec1__logo {
+		padding-top: 20px;
+	}
+}
+
+
 @media screen and (max-width: 376px) {
 	.sec1__logo {
 		margin-top: -50px;
