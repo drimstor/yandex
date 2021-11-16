@@ -472,10 +472,12 @@ header {
 
 .mob {
 	display: none;
+	z-index: 1;
 }
 
 .scrl {
 	display: none;
+	z-index: 1;
 }
 
 .mini__slider {
@@ -520,7 +522,6 @@ header {
 
 .slider {
 	padding: 0px 0px;
-	z-index: 99999;
 }
 
 .slider .slick-arrow {
@@ -712,7 +713,6 @@ header {
 .sec5 {
 	background-color: rgba(255, 255, 255, 0);
 	margin-top: -60px;
-	
 }
 
 .sec5__back {
@@ -720,6 +720,7 @@ header {
 	width: 100%;
 	background-color: #fff;
 	padding-bottom: 150px;
+	position: relative;
 }
 
 .sec5__body {
@@ -1095,6 +1096,9 @@ footer {
 	}
 	.sec5__back {
 		padding-bottom: 80px;
+	}
+	.sec5 {
+		margin-top: -100px;
 	}
 }
 
